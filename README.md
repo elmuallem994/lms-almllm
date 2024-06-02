@@ -1,4 +1,4 @@
-# Build a LMS Platform: Next 14, React, Stripe, Mux, Prisma, @clerk/nextjs, shadcn/ui, Tailwind, MySQL | Udemy Clone
+# Build a LMS Platform: Next 14, React, Stripe, Mux, Prisma, @clerk/nextjs, TypeScript, shadcn/ui, Tailwind, MySQL | Udemy Clone
 
 ![Project Screenshot](public/screenshot1.png)
 
@@ -25,7 +25,8 @@ Create your very own LMS (Learning Management System) platform. We are going to 
 ## Technologies Used
 
 - **Next.js 14**: The latest version of Next.js with the App Router.
-- **React**: For building the user interface.
+- **React.js**: For building the user interface.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
 - **Stripe**: For handling payments.
 - **Mux**: For video streaming.
 - **Prisma**: An ORM for database management.
@@ -90,7 +91,7 @@ Once the development server is running, you can access the application at [http:
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Abdullah - [LinkedIn](https://www.linkedin.com/in/abdullah-almoallem-43712a22b) - info@almllm.com
 
 Project Link: [https://github.com/elmuallem994/lms-tutorial](https://github.com/elmuallem994/lms-tutorial)
 
@@ -99,6 +100,7 @@ Project Link: [https://github.com/elmuallem994/lms-tutorial](https://github.com/
 - Mr.Antonio
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Stripe](https://stripe.com/)
 - [Mux](https://mux.com/)
 - [Prisma](https://www.prisma.io/)
