@@ -93,7 +93,7 @@ Once the development server is running, you can access the application at [http:
 
 Abdullah - [LinkedIn](https://www.linkedin.com/in/abdullah-almoallem-43712a22b) - info@almllm.com
 
-Project Link: [https://github.com/elmuallem994/lms-tutorial](https://github.com/elmuallem994/lms-tutorial)
+Project Link: [https://lms-tutorial-rosy.vercel.app/](https://lms-tutorial-rosy.vercel.app/)
 
 ## Acknowledgments
 
