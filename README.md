@@ -52,13 +52,13 @@ To get a local copy up and running follow these simple steps.
    git clone https://github.com/your_username/your_repo.git
    ```
 
-   2. Install NPM packages
+2. Install NPM packages
 
    ```sh
    npm install
    ```
 
-   3. Create a .env.local file and add your environment variables
+3. Create a .env.local file and add your environment variables
 
    ```sh
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
@@ -74,7 +74,7 @@ To get a local copy up and running follow these simple steps.
 
    ```
 
-   4. Run the development server
+4. Run the development server
 
    ```sh
    npm run dev
