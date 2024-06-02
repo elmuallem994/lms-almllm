@@ -5,6 +5,7 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+import { auth } from "@clerk/nextjs/server";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -25,6 +26,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { userId } = auth();
   return (
     <ClerkProvider>
       <html lang="en">
@@ -37,6 +39,7 @@ export default function RootLayout({
               <UserButton />
             </SignedIn>
           </header>
+          <div>{userId && <UserButton afterSignOutUrl="/" />}</div>
           <ConfettiProvider />
           <ToastProvider />
           {children}
