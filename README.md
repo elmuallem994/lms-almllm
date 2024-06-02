@@ -1,8 +1,8 @@
-# Build a Course & LMS Platform: Next 13, React, Stripe, Mux, Prisma, Tailwind, MySQL | Udemy Clone
+# Build a LMS Platform: Next 14, React, Stripe, Mux, Prisma, @clerk/nextjs, shadcn/ui, Tailwind, MySQL | Udemy Clone
 
-![Project Screenshot](path_to_your_screenshot.png)
+![Project Screenshot](public/screenshot1.png)
 
-In this 10-hour tutorial, you will learn how to create your very own LMS (Learning Management System) platform. We are going to use the latest tech such as Next 13 with the App Router, Prisma as an ORM, Stripe for payments, and many more.
+Create your very own LMS (Learning Management System) platform. We are going to use the latest technologies such as Next.js 14 with the App Router, Prisma as an ORM, Stripe for payments, and many more.
 
 ## Table of Contents
 
@@ -10,8 +10,6 @@ In this 10-hour tutorial, you will learn how to create your very own LMS (Learni
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
@@ -26,7 +24,7 @@ In this 10-hour tutorial, you will learn how to create your very own LMS (Learni
 
 ## Technologies Used
 
-- **Next.js 13**: The latest version of Next.js with the App Router.
+- **Next.js 14**: The latest version of Next.js with the App Router.
 - **React**: For building the user interface.
 - **Stripe**: For handling payments.
 - **Mux**: For video streaming.
@@ -49,7 +47,7 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/your_username/your_repo.git
+   git clone https://github.com/elmuallem994/lms-tutorial
    ```
 
 2. Install NPM packages
@@ -64,13 +62,18 @@ To get a local copy up and running follow these simple steps.
    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_publishable_key
    CLERK_SECRET_KEY=your_secret_key
    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+   NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
    DATABASE_URL='mysql://user:password@localhost:3306/dbname'
+   UPLOADTHING_SECRET=your_uploadthing_secret
+   UPLOADTHING_APP_ID=your_uploadthing_app_id
    STRIPE_API_KEY=your_stripe_api_key
+   NEXT_PUBLIC_APP_URL=your_app_url
+   STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret
    MUX_TOKEN_ID=your_mux_token_id
    MUX_TOKEN_SECRET=your_mux_token_secret
+   NEXT_PUBLIC_TEACHER_ID=your_teacher_id
 
    ```
 
@@ -89,10 +92,11 @@ Once the development server is running, you can access the application at [http:
 
 Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
-Project Link: [https://github.com/your_username/your_repo](https://github.com/your_username/your_repo)
+Project Link: [https://github.com/elmuallem994/lms-tutorial](https://github.com/elmuallem994/lms-tutorial)
 
 ## Acknowledgments
 
+- Mr.Antonio
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Stripe](https://stripe.com/)
